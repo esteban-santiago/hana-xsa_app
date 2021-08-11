@@ -1,0 +1,12 @@
+ID: hana-xsa_app
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: web
+    type: html5
+    path: web
+    requires:
+      - name: UAA-service
+resources:
+  - name: UAA-service
+    type: com.sap.xs.uaa-space
